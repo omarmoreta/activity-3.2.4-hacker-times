@@ -1,0 +1,206 @@
+$color_1: grey;
+$color_2: #777;
+$color_3: red;
+$font-family_1: "Source Sans Pro";
+$font-family_2: "Abril Fatface";
+$font-family_3: arial;
+$font-family_4: "Roboto Slab";
+$font-family_5: Arial;
+$background-color_1: #777;
+$background-color_2: white;
+
+@import "https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap";
+
+body {
+	font-family: $font-family_1;
+	margin: 20px 20px 60px 20px;
+	background-color: $background-color_1;
+}
+
+.date {
+	color: $color_1;
+}
+
+.newspaper-container {
+	width: 1000px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px #777;
+	padding: 30px;
+	margin: auto;
+	background-color: $background-color_2;
+}
+
+.navbar {
+	position: sticky;
+	top: 0px;
+	background-color: $background-color_2;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: $font-family_2;
+	margin: 10px;
+}
+
+ul {
+	border-top: 1.3px solid #eee;
+	border-bottom: 1.3px solid #eee;
+}
+
+li {
+	color: $color_2;
+	display: inline-block;
+	text-align: center;
+	font-family: $font-family_3;
+	text-decoration: none;
+	padding: 0.4em;
+}
+
+a {
+	color: $color_2;
+	display: inline-block;
+	text-align: center;
+	font-family: $font-family_3;
+	text-decoration: none;
+	padding: 0.4em;
+}
+
+h2 {
+	font-family: $font-family_4;
+	font-weight: 900;
+}
+
+h5 {
+	font-family: $font-family_3;
+	color: $color_3;
+	font-weight: 900;
+	font-family: $font-family_2;
+}
+
+p {
+	font-family: $font-family_5;
+	color: $color_2;
+}
+
+#pic1 {
+	width: 100%;
+}
+
+#main-body {
+	padding: 0px 15px 5px 0px;
+	text-align: justify;
+}
+
+.more-articles {
+	display: inline-block;
+	border-top: #777 0.2px solid;
+}
+
+#first-section {
+	display: inline-block;
+	width: 49%;
+}
+
+#second-section {
+	display: inline-block;
+	width: 49%;
+}
+
+h4 {
+	font-family: $font-family_3;
+    font-size: 1.2em;
+}
+
+#pic2 {
+	width: 90%;
+}
+
+#pic3 {
+	width: 90%;
+}
+
+#p1 {
+	width: 90%;
+	text-align: justify;
+}
+
+#p2 {
+	width: 90%;
+	text-align: justify;
+}
+
+#pic11 {
+	width: 90%;
+}
+
+#pic22 {
+	width: 90%;
+}
+
+#pic33 {
+	width: 90%;
+}
+
+#p11 {
+	width: 90%;
+	text-align: justify;
+}
+
+#p22 {
+	width: 90%;
+	text-align: justify;
+}
+
+#p33 {
+	width: 90%;
+	text-align: justify;
+}
+
+#first-section1 {
+	display: inline-block;
+	width: 32%;
+}
+
+#second-section2 {
+	display: inline-block;
+	width: 32%;
+}
+
+#third-section3 {
+	display: inline-block;
+	width: 32%;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #777;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type="email"] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #777;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #777;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
